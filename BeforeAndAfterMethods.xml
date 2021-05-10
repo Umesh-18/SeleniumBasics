@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG XML File">
+  <test thread-count="5" name="TestD">
+    <classes>
+      <class name="testNG.D_Annotations_BeforeClass_AfterClass"/>
+        <class name="testNG.C_Annotations_BeforeMethod_AfterMethod"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login To Orange Hrm]">
+  <test thread-count="5" name="Basic Test(failed)">
+    <classes>
+      <class name="pomtest.LoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="objectCreation"/>
+          <include name="initDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pomtest.LoginTest -->
+    </classes>
+  </test> <!-- Basic Test(failed) -->
+</suite> <!-- Failed suite [Login To Orange Hrm] -->

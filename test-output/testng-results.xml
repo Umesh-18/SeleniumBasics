@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[login test]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9211" started-at="2021-05-07T08:36:51Z" finished-at="2021-05-07T08:37:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9211" started-at="2021-05-07T08:36:51Z" finished-at="2021-05-07T08:37:00Z">
+      <class name="pomtest.LoginTest">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:pomtest.LoginTest@7cd62f43]" name="initDriver" is-config="true" duration-ms="16627" started-at="2021-05-07T08:36:35Z" finished-at="2021-05-07T08:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="objectCreation()[pri:0, instance:pomtest.LoginTest@7cd62f43]" name="objectCreation" is-config="true" duration-ms="63" started-at="2021-05-07T08:36:51Z" finished-at="2021-05-07T08:36:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectCreation -->
+        <test-method status="PASS" signature="login()[pri:0, instance:pomtest.LoginTest@7cd62f43]" name="login" duration-ms="9092" started-at="2021-05-07T08:36:51Z" finished-at="2021-05-07T08:37:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pomtest.LoginTest@7cd62f43]" name="tearDown" is-config="true" duration-ms="672" started-at="2021-05-07T08:37:00Z" finished-at="2021-05-07T08:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pomtest.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
